@@ -1,0 +1,27 @@
+{
+  "name": "stt_course_37_rest_api",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fahadramlan@bitbucket.org/fahadramlan/stt_course_37_rest_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/fahadramlan/stt_course_37_rest_api/issues"
+  },
+  "homepage": "https://bitbucket.org/fahadramlan/stt_course_37_rest_api#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1"
+  }
+}
